@@ -200,6 +200,7 @@
 .sub-button{
   border: 0;
   padding: 6px 6px;
+  margin:-5px;
   color: white;
   background-color: #ff5959;
   border-radius: 0 5px 5px 0;
