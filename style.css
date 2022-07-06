@@ -1,90 +1,218 @@
-*{
-    font-family: 'Poppins', sans-serif;
-    margin: 0%;
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0%;
+  box-sizing: border-box;
 }
-.banner-part{
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,.9)),url(images/cover.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    text-align: center;
+.banner-part {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url(images/cover2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
 }
 .intro-container h1 {
-    color:white;
-    font-size: 45px;
-    text-transform: capitalize;
+  color: white;
+  font-size: 45px;
+  text-transform: capitalize;
 }
-.intro-container{
-    padding-top: 13%;
-    margin: 0% 20%;
+.intro-container {
+  padding-top: 13%;
+  margin: 0% 20%;
 }
-.intro-container p{
-    color: rgb(251, 253, 255);
-    padding-bottom:5%;
+.intro-container p {
+  color: rgb(251, 253, 255);
+  padding-bottom: 5%;
 }
-.donate_button{
-    text-decoration: none;
-    color:white;
-    background-color: #FF5959;
-    padding: 14px 18px;
-    border-radius: 5px;
+.donate_button {
+  text-decoration: none;
+  color: white;
+  background-color: #ff5959;
+  padding: 14px 18px;
+  border-radius: 5px;
 }
 
 /*Intro part is end here and start donation-part*/
 
-.donation-part{
-    height: 100vh;
-    text-align: center;
+.donation-part {
+  height: 80vh;
+  text-align: center;
 }
-.details-container{
-    text-align: center;
-    padding-top: 4%;
-    margin: 0% 15%;
+.details-container {
+  text-align: center;
+  padding-top: 4%;
+  margin: 0% 15%;
 }
-.details-container h1{
-    font-size: 30px;
+.details-container h1 {
+  font-size: 30px;
 }
-.details-container p{
-    color: rgb(131, 130, 130);
+.details-container p {
+  color: rgb(131, 130, 130);
 }
-.amount{
-    padding-top: 3%;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    width: 50%;
-    margin: 0% auto;
+.amount {
+  padding-top: 3%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  width: 50%;
+  margin: 0% auto;
 }
-.amount-list{
-    background-color: #f3f3f3;
-    margin: 5% auto;
-    width: 110px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
+.amount-list {
+  background-color: #f3f3f3;
+  margin: 5% auto;
+  width: 110px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
 }
-.amount-list a{
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: 700;
-    color: #707070;
+.amount-list a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+  color: #707070;
 }
-#selected{
-    border: 2px solid #FF5959;
-    background-color: #FFEEEE;
+#selected {
+  border: 2px solid #ff5959;
+  background-color: #ffeeee;
 }
-.input-amount{
-    font-size: 20px;
-    border: 0px;
-    padding: 10px;
-    text-align: center;
+.input-amount {
+  font-size: 20px;
+  border: 0px;
+  padding: 10px;
+  text-align: center;
 }
-.line{
-    margin: 2px 15% 3% 15%;
+.line {
+  margin: 2px 15% 3% 15%;
 }
 
 /*donation-part css ends here*/
 
+.donate-plan-part {
+  height: 90vh;
+}
+.plan-box-container {
+  display: flex;
+  width: 85%;
+  margin: auto;
+
+}
+.box-list {
+    width: 400px;
+    margin:5% auto;
+    width: 360px;
+    height: 350px;
+    background-color: #707070;
+    padding-top: 8%;
+    padding-left: 2%;
+    border-radius: 6px;
+}
+.icone{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.box-list h1{
+  margin-bottom: 5px;
+}
+#food{
+  background-color: rgba(159, 248, 218,0.3);
+}
+#shelter{
+  background-color: rgba(229, 143, 172,0.2);
+}
+#medical{
+  background-color: rgba(192, 228, 122,0.3);
+}
+
+/*donation-plan-part css ends here*/
+
+.sylhet-point{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),url(images/donation-point.jpg);
+  width: 75%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  margin: 10px auto;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.sunamgonj-other{
+  width: 75%;
+  margin: 5px auto;
+  display: flex;
+}
+.donation-point-box{
+  width: 49%;
+  height: 200px;
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),url(images/shunamgonj-pont.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 0px auto;
+}
+.other-point{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),url(images/other-point.jpg);
+}
+.point-details{
+  color:white;
+  text-align: center;
+  padding: 3% 1%;
+  width: 80%;
+  margin: 0% auto;
+}
+.point-details p{
+  padding-bottom: 10px;
+}
+.visit-button{
+  text-decoration: none;
+  color: #f3f3f3;
+  padding: 8px 12px;
+  background-color: #ff5959;
+  border-radius: 10px;
+}
+
+/*donation-point ends here*/
+
+.update_part{
+  height: 80vh;
+}
+.sub-from{
+  height: 180px;
+  width: 50%;
+  margin: 4% auto;
+  background-color:#FFF4D6 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.input-email{
+  border: 0;
+  padding: 6px 6px;
+  background-color: #cfcece;
+  border-radius: 5px 0 0 5px ;
+}
+.sub-button{
+  border: 0;
+  padding: 6px 6px;
+  color: white;
+  background-color: #ff5959;
+  border-radius: 0 5px 5px 0;
+}
+/*footer part start from here*/
+footer{
+  text-align: center;
+  background-color:#0B0D17 ;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+footer h1{
+  color: #ff5959;
+  font-style: italic;
+}
